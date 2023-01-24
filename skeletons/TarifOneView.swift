@@ -68,42 +68,42 @@ class TarifOneView: UIView {
             make.top.equalTo(self.snp.top).offset(8)
             make.leading.equalTo(self.snp.leading).offset(16)
             make.trailing.equalTo(self.snp.trailing).offset(-16)
-            make.size.equalTo(CGSize(width: 343, height: 32))
+            make.height.equalTo(32)
         }
         
         unitView.snp.makeConstraints { make in
             make.top.equalTo(self.headerView.snp.bottom).offset(48)
             make.leading.equalTo(self.snp.leading).offset(79)
             make.trailing.equalTo(self.snp.trailing).offset(-79)
-            make.size.equalTo(CGSize(width: 217, height: 32))
+            make.height.equalTo(32)
         }
         
         priceView.snp.makeConstraints { make in
             make.top.equalTo(self.unitView.snp.bottom).offset(16)
             make.leading.equalTo(self.unitView.snp.leading)
             make.trailing.equalTo(self.unitView.snp.trailing)
-            make.size.equalTo(CGSize(width: 217, height: 24))
+            make.height.equalTo(24)
         }
         
         dataView.snp.makeConstraints { make in
             make.top.equalTo(self.priceView.snp.bottom).offset(48)
             make.leading.equalTo(self.snp.leading).offset(16)
             make.trailing.equalTo(self.snp.trailing).offset(-16)
-            make.size.equalTo(CGSize(width: 343, height: 84))
+            make.height.equalTo(84)
         }
         
         limitView.snp.makeConstraints { make in
             make.top.equalTo(self.dataView.snp.bottom).offset(16)
             make.leading.equalTo(self.snp.leading).offset(16)
             make.trailing.equalTo(self.snp.trailing).offset(-16)
-            make.size.equalTo(CGSize(width: 343, height: 256))
+            make.height.equalTo(256)
         }
         
         detailView.snp.makeConstraints { make in
             make.top.equalTo(self.limitView.snp.bottom).offset(16)
             make.leading.equalTo(self.snp.leading).offset(16)
             make.trailing.equalTo(self.snp.trailing).offset(-16)
-            make.size.equalTo(CGSize(width: 343, height: 52))
+            make.height.equalTo(52)
         }
     }
     

@@ -10,28 +10,28 @@ class TarifTwoView: UIView {
         return view
     }()
     
-    private let firstSegmentView: UIView = {
+    private let firstView: UIView = {
         let view = UIView()
         view.backgroundColor = UIColor(red: 237/255, green: 237/255, blue: 237/255, alpha: 1.0)
         view.layer.cornerRadius = 12
         return view
     }()
     
-    private let secondSegmentView: UIView = {
+    private let secondView: UIView = {
         let view = UIView()
         view.backgroundColor = UIColor(red: 237/255, green: 237/255, blue: 237/255, alpha: 1.0)
         view.layer.cornerRadius = 12
         return view
     }()
     
-    private let thirdSegmentView: UIView = {
+    private let thirdView: UIView = {
         let view = UIView()
         view.backgroundColor = UIColor(red: 237/255, green: 237/255, blue: 237/255, alpha: 1.0)
         view.layer.cornerRadius = 12
         return view
     }()
     
-    private let fourthSegmentView: UIView = {
+    private let fourthView: UIView = {
         let view = UIView()
         view.backgroundColor = UIColor(red: 237/255, green: 237/255, blue: 237/255, alpha: 1.0)
         view.layer.cornerRadius = 12
@@ -60,10 +60,10 @@ class TarifTwoView: UIView {
     
     private func setupUI() {
         self.addSubview(headerView)
-        self.addSubview(firstSegmentView)
-        self.addSubview(secondSegmentView)
-        self.addSubview(thirdSegmentView)
-        self.addSubview(fourthSegmentView)
+        self.addSubview(firstView)
+        self.addSubview(secondView)
+        self.addSubview(thirdView)
+        self.addSubview(fourthView)
         self.addSubview(tarifNameWhiteView)
         self.addSubview(tarifNameDarkView)
         
@@ -76,45 +76,45 @@ class TarifTwoView: UIView {
             make.top.equalTo(self.snp.top).offset(8)
             make.leading.equalTo(self.snp.leading).offset(16)
             make.trailing.equalTo(self.snp.trailing).offset(-16)
-            make.size.equalTo(CGSize(width: 343, height: 32))
+            make.height.equalTo(32)
         }
         
-        firstSegmentView.snp.makeConstraints { make in
+        firstView.snp.makeConstraints { make in
             make.top.equalTo(self.headerView.snp.bottom).offset(24)
             make.leading.equalTo(self.snp.leading).offset(16)
             make.size.equalTo(CGSize(width: 80, height: 36))
         }
         
-        secondSegmentView.snp.makeConstraints { make in
+        secondView.snp.makeConstraints { make in
             make.top.equalTo(self.headerView.snp.bottom).offset(24)
-            make.leading.equalTo(self.firstSegmentView.snp.trailing).offset(12)
+            make.leading.equalTo(self.firstView.snp.trailing).offset(12)
             make.size.equalTo(CGSize(width: 80, height: 36))
         }
         
-        thirdSegmentView.snp.makeConstraints { make in
+        thirdView.snp.makeConstraints { make in
             make.top.equalTo(self.headerView.snp.bottom).offset(24)
-            make.leading.equalTo(self.secondSegmentView.snp.trailing).offset(12)
+            make.leading.equalTo(self.secondView.snp.trailing).offset(12)
             make.size.equalTo(CGSize(width: 80, height: 36))
         }
         
-        fourthSegmentView.snp.makeConstraints { make in
+        fourthView.snp.makeConstraints { make in
             make.top.equalTo(self.headerView.snp.bottom).offset(24)
-            make.leading.equalTo(self.thirdSegmentView.snp.trailing).offset(12)
+            make.leading.equalTo(self.thirdView.snp.trailing).offset(12)
             make.size.equalTo(CGSize(width: 80, height: 36))
         }
         
         tarifNameWhiteView.snp.makeConstraints { make in
-            make.top.equalTo(self.firstSegmentView.snp.bottom).offset(32)
+            make.top.equalTo(self.firstView.snp.bottom).offset(32)
             make.leading.equalTo(self.snp.leading).offset(16)
             make.trailing.equalTo(self.snp.trailing).offset(-16)
-            make.size.equalTo(CGSize(width: 343, height: 234))
+            make.height.equalTo(234)
         }
         
         tarifNameDarkView.snp.makeConstraints { make in
             make.top.equalTo(self.tarifNameWhiteView.snp.bottom).offset(16)
             make.leading.equalTo(self.snp.leading).offset(16)
             make.trailing.equalTo(self.snp.trailing).offset(-16)
-            make.size.equalTo(CGSize(width: 343, height: 234))
+            make.height.equalTo(234)
         }
     }
     

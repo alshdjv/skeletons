@@ -112,14 +112,14 @@ class AccountView: UIView {
             make.top.equalTo(self.mobileView.snp.bottom).offset(24)
             make.leading.equalTo(self.snp.leading).offset(16)
             make.trailing.equalTo(self.snp.trailing).offset(-16)
-            make.size.equalTo(CGSize(width: 343, height: 48))
+            make.height.equalTo(48)
         }
         
         secondMobileView.snp.makeConstraints { make in
             make.top.equalTo(self.firstMobileView.snp.bottom).offset(24)
             make.leading.equalTo(self.firstMobileView.snp.leading)
             make.trailing.equalTo(self.firstMobileView.snp.trailing)
-            make.size.equalTo(CGSize(width: 343, height: 48))
+            make.height.equalTo(48)
         }
         
         internetView.snp.makeConstraints { make in
@@ -132,14 +132,14 @@ class AccountView: UIView {
             make.top.equalTo(self.internetView.snp.bottom).offset(24)
             make.leading.equalTo(self.snp.leading).offset(16)
             make.trailing.equalTo(self.snp.trailing).offset(-16)
-            make.size.equalTo(CGSize(width: 343, height: 48))
+            make.height.equalTo(48)
         }
         
         secondInternetView.snp.makeConstraints { make in
             make.top.equalTo(self.firstInternetView.snp.bottom).offset(24)
             make.leading.equalTo(self.firstInternetView.snp.leading)
             make.trailing.equalTo(self.firstInternetView.snp.trailing)
-            make.size.equalTo(CGSize(width: 343, height: 48))
+            make.height.equalTo(48)
         }
         
         telephonyView.snp.makeConstraints { make in
@@ -152,14 +152,14 @@ class AccountView: UIView {
             make.top.equalTo(self.telephonyView.snp.bottom).offset(24)
             make.leading.equalTo(self.snp.leading).offset(16)
             make.trailing.equalTo(self.snp.trailing).offset(-16)
-            make.size.equalTo(CGSize(width: 343, height: 48))
+            make.height.equalTo(48)
         }
         
         secondTelephonyView.snp.makeConstraints { make in
             make.top.equalTo(self.firstTelephonyView.snp.bottom).offset(24)
             make.leading.equalTo(self.firstTelephonyView.snp.leading)
             make.trailing.equalTo(self.firstTelephonyView.snp.trailing)
-            make.size.equalTo(CGSize(width: 343, height: 48))
+            make.height.equalTo(48)
         }
     }
     
