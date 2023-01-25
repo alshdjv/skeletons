@@ -8,7 +8,8 @@ class ViewController: UIViewController {
 //    private let packsView = PacksView()
 //    private let serviceView = ServicesView()
 //    private let offerView = OfferingView()
-    private let aboutClientView = AboutClientView()
+//    private let aboutClientView = AboutClientView()
+    private let notificationView = NotificationView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,14 +18,14 @@ class ViewController: UIViewController {
     }
     
     private func setupView() {
-        self.view.addSubview(aboutClientView)
+        self.view.addSubview(notificationView)
         
         self.setConstraints()
     }
     
     private func setConstraints() {
         
-        aboutClientView.snp.makeConstraints { make in
+        notificationView.snp.makeConstraints { make in
             make.top.bottom.equalTo(self.view.safeAreaLayoutGuide)
             make.leading.trailing.equalTo(self.view.safeAreaLayoutGuide)
         }
