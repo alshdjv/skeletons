@@ -18,6 +18,10 @@
 		63041424297FDC9A0053C836 /* TarifOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63041423297FDC9A0053C836 /* TarifOneView.swift */; };
 		63041426297FE0ED0053C836 /* TarifTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63041425297FE0ED0053C836 /* TarifTwoView.swift */; };
 		63041428297FE4720053C836 /* PacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63041427297FE4720053C836 /* PacksView.swift */; };
+		6304142A2980015D0053C836 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630414292980015D0053C836 /* ServicesView.swift */; };
+		638C9AF42980E5FF004303FF /* OfferingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C9AF32980E5FF004303FF /* OfferingView.swift */; };
+		638C9AF62980E607004303FF /* AboutClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C9AF52980E607004303FF /* AboutClientView.swift */; };
+		638C9AF82980E610004303FF /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C9AF72980E610004303FF /* NotificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		63041423297FDC9A0053C836 /* TarifOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarifOneView.swift; sourceTree = "<group>"; };
 		63041425297FE0ED0053C836 /* TarifTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarifTwoView.swift; sourceTree = "<group>"; };
 		63041427297FE4720053C836 /* PacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacksView.swift; sourceTree = "<group>"; };
+		630414292980015D0053C836 /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		638C9AF32980E5FF004303FF /* OfferingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferingView.swift; sourceTree = "<group>"; };
+		638C9AF52980E607004303FF /* AboutClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutClientView.swift; sourceTree = "<group>"; };
+		638C9AF72980E610004303FF /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,10 @@
 				63041423297FDC9A0053C836 /* TarifOneView.swift */,
 				63041425297FE0ED0053C836 /* TarifTwoView.swift */,
 				63041427297FE4720053C836 /* PacksView.swift */,
+				630414292980015D0053C836 /* ServicesView.swift */,
+				638C9AF32980E5FF004303FF /* OfferingView.swift */,
+				638C9AF52980E607004303FF /* AboutClientView.swift */,
+				638C9AF72980E610004303FF /* NotificationView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -177,9 +189,13 @@
 				63041424297FDC9A0053C836 /* TarifOneView.swift in Sources */,
 				63041422297FD4290053C836 /* AccountView.swift in Sources */,
 				63041428297FE4720053C836 /* PacksView.swift in Sources */,
+				638C9AF82980E610004303FF /* NotificationView.swift in Sources */,
 				63041426297FE0ED0053C836 /* TarifTwoView.swift in Sources */,
+				6304142A2980015D0053C836 /* ServicesView.swift in Sources */,
+				638C9AF62980E607004303FF /* AboutClientView.swift in Sources */,
 				6304140D297FD0FB0053C836 /* ViewController.swift in Sources */,
 				63041409297FD0FB0053C836 /* AppDelegate.swift in Sources */,
+				638C9AF42980E5FF004303FF /* OfferingView.swift in Sources */,
 				6304140B297FD0FB0053C836 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
